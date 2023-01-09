@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: orange;
+    background-color: black;
+}
+h2{
+    color: yellow;
+}
