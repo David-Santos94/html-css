@@ -98,11 +98,15 @@ header {
 #icons {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 50%;
 }
 
 #icons > img {
-    padding: 18px;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    padding: 15px;
 }
 
 #icons > img:hover{
@@ -295,6 +299,7 @@ header {
 
 #icons-footer {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     width: 300px;
     height: 100%;
@@ -304,9 +309,15 @@ header {
 
 #icons-footer > a {
     display: flex;
+    align-items: center;
+    height: 50%;
     border: 2px solid #909498;  
-    border-radius: 18px;
+    border-radius: 28px;
     padding: 10px;
+}
+
+#icons-footer > a > img {
+    height: 100%;
 }
 
 #icons-footer > a:hover {
