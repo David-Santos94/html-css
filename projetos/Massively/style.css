@@ -101,6 +101,7 @@ header {
 
 #icons > img {
     padding: 18px;
+    width: 100%;
 }
 
 #icons > img:hover{
