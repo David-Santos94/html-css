@@ -18,7 +18,7 @@ Grandes telas: acima de 1200px
     #login {
         flex-direction: row;
         width: 80vw;
-        height: 60vh;
+        height: 80vh;
     }
 
     #imagem {
@@ -39,7 +39,7 @@ Grandes telas: acima de 1200px
     }
 
     #login {
-        flex-direction: row;
+        flex-direction: row-reverse;
         width: 950px;
     }
 
