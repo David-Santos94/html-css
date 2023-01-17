@@ -70,7 +70,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
     padding: 10px;
 }
 
@@ -83,9 +83,25 @@ form {
     width: 100%;
     height: 40px;
     margin: 5px 0;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 0px 3px;
 
+}
+
+.campo > span {
+    color: white;
+}
+
+.campo > input {
+    background-color: #94cfdc;
+    height: 85%;
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 .campo > label {
